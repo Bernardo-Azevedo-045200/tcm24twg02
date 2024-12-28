@@ -10,7 +10,6 @@ header{
     background-size: cover;
     background-position: center;
     min-height: 100px;
-
 }
 
 ul{
@@ -60,29 +59,22 @@ ul li a:hover{
     position: absolute;
     top: 56%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);   
 }
 
 .btn1{
     width:100%;
-    max-width:40px;
-    
-    
+    max-width:40px; 
 }
 
 .btn2{
     width:100%;
     padding-left: 10px;
-    max-width:40px;
-    
-    
+    max-width:40px;   
 }
 
 .btn3{
     width:100%;
     padding-left: 10px;
     max-width:40px;
-    
-    
 }
