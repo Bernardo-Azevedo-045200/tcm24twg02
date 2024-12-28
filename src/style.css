@@ -14,7 +14,7 @@ header{
 
 ul{
     float: right;
-    list-style: none;
+    list-style-type: none;
     margin-top: 40px;
     min-height: 400px;
     margin-right: 60px;
@@ -37,7 +37,7 @@ ul li a:hover{
     color: black;
 }
 
-.main{
+main{
     max-width: 1200px;
     margin: auto;
 }
