@@ -87,3 +87,24 @@ main{
     padding-left: 10px;
     max-width:40px;
 }
+
+@media (max-width: 768px) {
+    header {
+        height: auto; /* Ajusta a altura do cabeçalho */
+    }
+    .title h1 {
+        font-size: 50px; /* Reduz o tamanho da fonte */
+    }
+    ul {
+        margin-right: 20px; /* Ajusta a margem */
+    }
+    .button {
+        top: 60%; /* Ajusta a posição do botão */
+    }
+}
+
+@media (max-width: 480px) {
+    ul {
+        display: none; /* Oculta o menu em telas muito pequenas */
+    }
+}
