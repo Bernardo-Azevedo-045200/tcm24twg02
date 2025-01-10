@@ -60,10 +60,6 @@ main{
     height: 30px;
 }
 
-.gallery{
-
-}
-
 input{
     display: none;
 }
@@ -111,5 +107,127 @@ input{
     height: 60px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
 }
 
+.photogallery{
+    height: 100%;
+    background-color: rgb(93, 167, 231);
+    line-height: 60px;
+    padding: 0 50px;
+    color: brown;
+}
+
+label{
+    display: inline-block;
+    height: 100%;
+    margin: 0 10px;
+    line-height: 60px;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+    transition: .5s;
+}
+
+label:hover {
+    color: lightcyan;
+}
+
+.photo-gallery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.fotos {
+    position: relative;
+    height: 230px;
+    box-shadow: 3px 3px 5px lightgray;
+    cursor: pointer;
+}
+
+.fotos img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: .5s;
+
+}
+
+.fotos::before {
+    content: "Photo Gallery";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    width: 100%;
+    margin-top: -100px;
+    opacity: 0;
+    transition: .3s;
+    transition-delay: .2s;
+    z-index: 1;
+}
+
+.fotos::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+    height: 0;
+    background-color: black;
+    transition: .3s;
+    opacity: 50%;
+}
+
+.fotos:hover::after{
+    height: 100%;
+    opacity: 30%;
+}
+
+.fotos:hover::before{
+    margin-top: 0;
+    opacity: 1;
+}
+
+#check1:checked ~ .container .photogallery .fotos{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+    transition: .5s;
+}
+
+#check2:checked ~ .container .photo-gallery .bali{
+    opacity: 1;
+    transform: scale(1);
+    position: relative;
+}
+
+#check2:checked ~ .container .photo-gallery .dubai{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}  
+#check2:checked ~ .container .photo-gallery .italia{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}  
+#check2:checked ~ .container .photo-gallery .japao{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}  
+#check2:checked ~ .container .photo-gallery .marrocos
+{
+    opacity: 0;
+    transform: scale(0);
+    position: absolute;
+}  
