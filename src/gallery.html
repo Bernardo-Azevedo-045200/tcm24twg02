@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour Travel</title>
+    <title>Tour Travel - Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="gallery">
     <header>
-
+        <nav class="navbar">
+            <ul>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
-
+    
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+    <input type="radio" name="Photos" id="check5">
+    <input type="radio" name="Photos" id="check6">
+    
+    <div class="container">
+         <h1 class="ourgallery">Our Photo Gallery</h1>
+         <div class="top-content">
+        <h2 class="photogallery">Photo Gallery</h3>
+            <label for="check1">All Photos</label>
+            <label for="check2">Bali</label>
+            <label for="check3">Dubai</label>
+            <label for="check4">Itália</label>
+            <label for="check5">Japão</label>
+            <label for="check6">Marrocos</label>
+         </div>
+          <div class="photo-gallery">
+           <div class="Bali">
+            <img src="img/paises/Bali.jpg">
+           </div>
+           <div class="Dubai">
+            <img src="img/paises/Dubai.jpg">
+           </div>
+           <div class="Itália">
+            <img src="img/paises/Itália.jpg">
+           </div>
+           <div class="Japão">
+            <img src="img/paises/Japão.jpeg">
+           </div>
+           <div class="Marrocos">
+            <img src="img/paises/Marrocos.jpeg">
+           </div>
+           </div>
+          </div>
+    </div>
 </body>
 </html>
