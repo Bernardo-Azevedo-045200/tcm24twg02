@@ -197,37 +197,31 @@ label:hover {
     opacity: 1;
 }
 
-#check1:checked ~ .container .photogallery .fotos{
+#check2:not(:checked) ~ .container .photo-gallery .bali,
+#check3:not(:checked) ~ .container .photo-gallery .dubai, 
+#check4:not(:checked) ~ .container .photo-gallery .italia,
+#check5:not(:checked) ~ .container .photo-gallery .japao,
+#check6:not(:checked) ~ .container .photo-gallery .marrocos{
+    opacity: 0;
+    transform: scale(0);
+    position: relative;
+}
+
+#check1:checked ~ .container .photo-gallery .fotos{
     opacity: 1;
     transform: scale(1);
     position: relative;
     transition: .5s;
 }
 
-#check2:checked ~ .container .photo-gallery .bali{
+#check2:checked ~ .container .photo-gallery .bali,
+#check3:checked ~ .container .photo-gallery .dubai, 
+#check4:checked ~ .container .photo-gallery .italia,
+#check5:checked ~ .container .photo-gallery .japao,
+#check6:checked ~ .container .photo-gallery .marrocos
+{
     opacity: 1;
     transform: scale(1);
-    position: relative;
-}
-
-#check2:checked ~ .container .photo-gallery .dubai{
-    opacity: 0;
-    transform: scale(0);
     position: absolute;
-}  
-#check2:checked ~ .container .photo-gallery .italia{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-}  
-#check2:checked ~ .container .photo-gallery .japao{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
-}  
-#check2:checked ~ .container .photo-gallery .marrocos
-{
-    opacity: 0;
-    transform: scale(0);
-    position: absolute;
+    transition: .5s;
 }  
