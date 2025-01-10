@@ -101,7 +101,7 @@ input{
 }
 
 .top-content {
-    background-color: rgb(186, 230, 244);
+    background-color: rgb(214, 195, 143);
     width: 90%;
     margin: 0 auto 20px auto;
     height: 60px;
@@ -113,10 +113,10 @@ input{
 
 .photogallery{
     height: 100%;
-    background-color: rgb(93, 167, 231);
+    background-color: rgb(241, 161, 115);
     line-height: 60px;
     padding: 0 50px;
-    color: brown;
+    color: aliceblue;
 }
 
 label{
@@ -125,13 +125,13 @@ label{
     margin: 0 10px;
     line-height: 60px;
     font-size: 18px;
-    color: gray;
+    color: aliceblue;
     cursor: pointer;
     transition: .5s;
 }
 
 label:hover {
-    color: lightcyan;
+    color: black;
 }
 
 .photo-gallery {
