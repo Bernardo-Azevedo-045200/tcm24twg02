@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://tcm24twg02.netlify.app"
+    xmlns:tns="https://tcm24twg02.netlify.app"
+    elementFormDefault="qualified">
+
+    <xs:element name="prices">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="countrie" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="currency" type="xs:string" />
+                            <xs:element name="price" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="item" type="xs:string" />
+                                        <xs:element name="value" type="xs:decimal" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

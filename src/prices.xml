@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE prices [
+    <!ENTITY dollar "&#36;">
+    <!ENTITY euro "&#x20AC;">
+]>
+<prices xmlns="https://tcm24twg02.netlify.app" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://tcm24twg02.netlify.app prices.xsd">
+<countrie name="Dubai">
+        <currency>&euro;</currency>
+        <price>
+            <item>Travel with go and back	</item>
+            <value>800</value>
+        </price>
+        <price>
+            <item>Food</item>
+            <value>350</value>
+        </price>
+        <price>
+            <item>Hotel</item>
+            <value>300</value>
+        </price>
+</countrie>
+
+<countrie name="Bali">
+        <currency>&euro;</currency>
+        <price>
+            <item>Travel with go and back	</item>
+            <value>300</value>
+        </price>
+        <price>
+            <item>Food</item>
+            <value>150</value>
+        </price>
+        <price>
+            <item>Hotel</item>
+            <value>70</value>
+        </price>
+</countrie>
+
+<countrie name="Italy">
+        <currency>&euro;</currency>
+        <price>
+            <item>Travel with go and back	</item>
+            <value>400</value>
+        </price>
+        <price>
+            <item>Food</item>
+            <value>200</value>
+        </price>
+        <price>
+            <item>Hotel</item>
+            <value>200</value>
+        </price>
+</countrie>
+
+<countrie name="Japan">
+        <currency>&euro;</currency>
+        <price>
+            <item>Travel with go and back	</item>
+            <value>500</value>
+        </price>
+        <price>
+            <item>Food</item>
+            <value>300</value>
+        </price>
+        <price>
+            <item>Hotel</item>
+            <value>450</value>
+        </price>
+</countrie>
+
+<countrie name="Morocco">
+        <currency>&euro;</currency>
+        <price>
+            <item>Travel with go and back	</item>
+            <value>90</value>
+        </price>
+        <price>
+            <item>Food</item>
+            <value>50</value>
+        </price>
+        <price>
+            <item>Hotel</item>
+            <value>60</value>
+        </price>
+</countrie>
+</prices>    
