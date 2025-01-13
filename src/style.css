@@ -375,6 +375,7 @@ form {
 }
 
 .TitlePrices{
+    margin-top: 60px;
     text-align: center;
     position: relative;
     align-items: center;
