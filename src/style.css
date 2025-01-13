@@ -48,6 +48,8 @@ ul li a:hover{
 
 main{
     padding: 10px;
+    position: relative;
+   
 }
 
 .title {
@@ -395,4 +397,15 @@ form {
     height: 200px;
     
 
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(241, 161, 115);
+    opacity: 0.5;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
