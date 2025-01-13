@@ -68,7 +68,7 @@ main{
     height: 30px;
 }
 
-input{
+.inputgallery{
     display: none;
 }
 
@@ -127,7 +127,7 @@ input{
     color: aliceblue;
 }
 
-label{
+.labelgallery{
     display: inline-block;
     height: 100%;
     margin: 0 10px;
@@ -138,7 +138,7 @@ label{
     transition: .5s;
 }
 
-label:hover {
+.labelgallery:hover {
     color: black;
 }
 
@@ -249,4 +249,97 @@ label:hover {
     margin: 0 auto;
     align-items: center;
     justify-content: space-around;
+}
+
+.containercontacts{
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+    margin: 20px;
+}
+
+form {
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 30rem;
+  }
+
+
+.labelcontacts, .inputcontacts, #mensage, .buttoncontacts{
+    width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+.inputcontacts, #mensage,.buttoncontacts {
+  width: 100%;
+  font: inherit;
+  padding: 1.25rem;
+  font-weight: 700;
+}
+
+.inputcontacts, #mensage {
+  margin-bottom: 1rem;
+  color: white;
+  background: #323644;
+  border: 0.125rem solid transparent;
+  border-radius: 1.125rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputcontacts:hover,.inputcontacts:focus,#mensage:hover,#mensage:focus {
+  outline: none;
+  border-color: #1d90f5;
+  box-shadow: 0 0 0 0.3125rem #26344a;
+}
+
+.labelcontacts {
+  margin-bottom: 0.5rem;
+  color: #84868f;
+}
+
+#mensage {
+  min-height: 12.5rem;
+  resize: vertical;
+}
+
+.buttoncontacts {
+  border: none;
+  border-radius: 99px;
+  color: white;
+  background: #1d90f5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.buttoncontacts:hover,
+.buttoncontacts:focus {
+  outline: none;
+  background: #1c70d3;
+}
+
+.buttoncontacts:disabled {
+  cursor: not-allowed;
+  background: #555b69;
+}
+
+.success,
+.error {
+  text-align: center;
+}
+
+.success {
+  color: greenyellow;
+}
+
+.error {
+  color: tomato;
 }

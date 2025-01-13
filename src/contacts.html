@@ -5,11 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour Travel</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
-<body>
+<body class="gallery">
     <header>
-
+        <nav class="navbar">
+            <ul class="navmenu">
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="prices.html">Prices</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
+    <form
+      action="https://formsubmit.co/ajax/tourtravel@gmail.com"
+      method="POST"
+      data-form
+    >
+      <label class="labelcontacts" for="name">Name</label>
+      <input class="inputcontacts" type="text" name="name" id="name" required />
+      <label class="labelcontacts" for="email">E-mail</label>
+      <input class="inputcontacts" type="email" name="email" id="email" required />
+      <label class="labelcontacts" for="mensage">Mensage</label>
+      <textarea name="mensage" id="mensage" required></textarea>
+      <button class="buttoncontacts" type="submit" data-button>Send</button>
+    </form>
+    <table id="socialMediaTable">
+        <thead>
+        </thead>
+        <tbody>
+        <tr>
+        <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/" ><img src="img/icons/ins.png" alt="" class="btn1"></a>
+        </td>
+        <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/" ><img src="img/icons/fb.png" alt="" class="btn2"></a>
+        </td> 
+        <td>
+            <a target="_blank" rel="noopener noreferrer" href="https://x.com/" ><img src="img/icons/x.png" alt="" class="btn3"></a>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+    </main>
 
 </body>
 </html>
