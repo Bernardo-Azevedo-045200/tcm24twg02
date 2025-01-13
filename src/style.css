@@ -386,3 +386,12 @@ form {
     margin-bottom: 20px;
     text-decoration: none;
 }
+
+#logoindex{
+    float: left;
+    position: relative;
+    display: flex;
+    height: 200px;
+    
+
+}
