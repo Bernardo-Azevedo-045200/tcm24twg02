@@ -254,8 +254,21 @@ main{
 
 
 .aboutimg{
-    width: 500px;
+    width: 300px;
     height: auto;
+    padding-right: 30px;
+}
+
+.aboutustext{
+    color: aliceblue;
+}
+
+.titleabout{
+    color: aliceblue;
+}
+
+.subtitleabout{
+    color: aliceblue;
 }
 
 .container1{
