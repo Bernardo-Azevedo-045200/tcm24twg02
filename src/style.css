@@ -3,6 +3,22 @@
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/homebck.jpg);
 }
 
+.gallery{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/gallerybck.jpg);
+}
+
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/aboutbck.jpg);
+}
+
+.prices{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/pricesbck.jpg);
+}
+
+.contacts{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/contactsbck.jpg);
+}
+
 nav{
     position: relative;
     display: flex;
@@ -380,13 +396,14 @@ form {
     text-align: center;
     position: relative;
     align-items: center;
+    color: antiquewhite;
     
 }
 
 .dwldbutton{
-    margin-top: 20PX;
-    margin-bottom: 40px;
     text-decoration: none;
+    display: block;
+    margin: 40px auto;
 }
 
 #logoindex{
