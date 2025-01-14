@@ -36,5 +36,21 @@ O site Tour Travel oferece:
 ### Instruções de Instalação
 https://github.com/Bernardo-Azevedo-045200/tcm24twg02.git
 
+### Regras de Utilização
+
+- O site oferece certas limitações
+- Não é necessário autenticação
+
+### Ajuda à Navegação
+
+- Os menus encontram se todos na área superior
+- Onde encontramos a galeria com fotos dos nossos destinos
+- Como nos podem contactar
+- E um pouco sobre a nossa empresa
+
+### Validação do HTML e CSS
+
+- W3cvalidator
+
 
  
